@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Define the color variable at the root level */
+  --nextui-background: 240 11% 11%;
+  --nextui-background-opacity: 1; /* Set default opacity to 1 if not already defined */
+
+  --nextui-foreground:229 67% 91%; /* Example value: white text in HSL format */
+  --nextui-foreground-opacity: 1; /* Set default opacity to 1 */
+}
+#top-bg-cover-img {
+  background-image: url(/blue_hero_bg.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  position: absolute;
+  background-repeat: no-repeat;
+  filter: blur(5px);
+  z-index: 1;
+  -webkit-filter: blur(5px);
+}
+body {
+  
+  margin:0 auto;
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(var(--nextui-background) / var(--nextui-background-opacity));
+
+  --tw-text-opacity: 1;
+  color: hsl(var(--nextui-foreground) / var(--nextui-foreground-opacity, var(--tw-text-opacity)));
+  
+
+
+  /* align-items: center; */
+}
