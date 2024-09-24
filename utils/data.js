@@ -15,15 +15,15 @@ export const DATA = {
     social: {
       GitHub: {
         name: 'GitHub',
-        url: 'https://github.com/iamparth2002',
+        url: 'https://github.com/aashish18-mandal',
       },
       LinkedIn: {
         name: 'LinkedIn',
-        url: 'https://www.linkedin.com/in/parth-gandhi-bb8aab135/',
+        url: 'https://www.linkedin.com/in/aashish-mandal-b39b5122b/',
       },
       X: {
         name: 'X',
-        url: 'https://x.com/iamparth2002',
+        url: '',
       },
     },
   },
