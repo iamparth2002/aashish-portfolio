@@ -23,7 +23,7 @@ export const DATA = {
       },
       X: {
         name: 'X',
-        url: '',
+        url: 'https://x.com/AashishMan11669',
       },
     },
   },
